@@ -1,0 +1,86 @@
+
+
+body {
+  background-color: aquamarine;
+  font-size: 16px;
+  font-family: 'Palanquin', sans-serif;
+  display: block;
+}
+
+div {
+  display: block;
+}
+
+.linksbar {
+  padding-top: 1rem;
+  background-color: teal;
+  color: rgb(138, 61, 30);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  color: white;
+  padding: 0.5rem 1.5rem;
+  margin-right: 1.5rem;
+  display: inline-block;
+}
+
+.intro h1 {
+  color: white;
+  font-size: 2rem;
+  margin-top: 10rem;
+  padding: 2rem;
+  background-color: rgba(0.5, 0.5, 0.5, 0.5);
+  text-align: center;
+}
+
+.photos img {
+  width: 30%;
+  margin: 1.5%;
+}
+
+@media only screen and (max-width: 640px) {
+.photos img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 1048px) {
+.photos img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.testimonial {
+  background-color: teal;
+  height: 20rem;
+  padding: 0 1rem;
+  padding-top: 1rem;
+  color: yellow;
+}
+
+.testimonial h1 {
+  font-size: 2.5rem;
+  color: yellow;
+}
+
+.meetup img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
